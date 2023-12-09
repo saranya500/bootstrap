@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<!-----bootsrap css-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<!-----navbar coding----->
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+
+        <a href="/" class="navbar-brand">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAK4AuQMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYDBAcCAf/EAD0QAAEDAwEDCAcECwEAAAAAAAABAgMEBREGEiExE0FRYYGRobEUFjJCccHRIlJV8BUjJCUzU1RikuHxQ//EABoBAQADAQEBAAAAAAAAAAAAAAADBAUGAgH/xAAyEQABAwIDBQYEBwAAAAAAAAAAAQIDBBEFEjETIUFR8BQiMnGRsVNhgcEGIyQzNKHR/9oADAMBAAIRAxEAPwDiIAJD4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD3DDLUSJHBE+V68GxtVy9yFh01paW6I2qrFdDSe6ie1J8OhOsuck9n05SozMVMxeDGpl7+vpX4qXoKFz253rlaZ1RiLY3bONMzvkUKHSl6mRF9D5NF/mPanhnJm9VLvBvfQMnTobMiL5lhfrJZV/d1pqqlucbS7vJFHrhPCua2yVUMfO5HZ80Qk2VB4dovX0PLX4rbaJEluvmVWSjoo5OSr4a23SrwV7dtvki+Z5qrDVRQ+kUzmVdMvCSFc+B0Ciu1pv0SwNcyXKb4Jm7+5ePYQ1wsNTZJHV9hc50Kb5aRyquU6unzIpqBzW7SF2ZC5SYtTyP2NZHkXmm7+tOtShgt1XbqTUFGtfbUSOq99nDK9C9fX+UqT2uY9zHorXNXCoqb0UoNdmNKqpH06ot7tXRU0U+AA9FQAAAAAAAAAAAAAAAAAAE1pSz/AKYuOJUX0aHD5evob2+SKQp03RVG2jsEUjsI6dVlcvVzeCIW6KBJpURdE3lHEKhYIFVuq7kMmo7z+iYYqajjR9bN9mGJE9lOGcfIiaGyRxbdfepUqKlU23ulXLGfnuMdj/et1rLzMiqivWOBFT2W/wDMd6kZrC6OmqVoInKkUX8THvO6/gQVtU6plytXuodBg2HQYZRJWTtzPdonXXE2blq5rFWK2Qo5E3cpJuTsQinanuyuylQ1OpI24IcECRtTgeZcUq5XXV6p5bjenuCVK8pNAyOdFy2aBNhc9acF8FLpo/Ujrhihr3p6U1Mxv/mInzTxOemSnmkpqiOeF2zJG5HNXrQtU07qd926cTJroUrGKj/FwUu17p/V+8R3OnTZoql2xUMRNzV45x49/SROsoqPl456eaNah26WNq5XhuXq/wCEddb9cbqisqp/1KrnkmJst/325Iw8VOzfMr49yFqiqZoqHss1ncl5ddagAEZGAAAAAAAAAAAAAAAAAAF4HVatfRtKS8n9nk6HDcc32MHKuY6lK703SDnRplZKHKJ17HDvNPDtJOdjIxXWK+lzQ0wxIbDTL0o56/5Kc/nkWaeSV3F7lcvauS/6Yek1hpU6EcxexVOfzRrFNJG7ixytXsMaLxKdvi/8Wntpb7IeTZoqCrr3ObRwPmc1MuRicENYnNKXqCy1FRJURyvSViNRI8bsL1qWomsc9EetkOanc9sarGl1Nf1dvP4dP3D1dvP4dP3Ft9e7f/S1Xc36nz17t39LVdzfqX+z0fxOvQze1V/wuvUqfq7efw6fuNamtlbVI9aemkkRjtl2ynBeg6ylU1KH0uRrompFyqtfxamM7yq6MjclqdM/jNM56eCeaKV8QgZTI1WLe5rfh7Nik7o5UsicikTwyQSuimYrJGrhzV4oeDdvUqTXeskTgsrkTsXBpFNNCWVqMkc1uiKoAB9IwAAAAAAAAAAAAAAAdD0DXtqbS+ikXL6dy7uljt6eOU7jnhv2S5yWm4x1UaK5qfZkZ95q8ULNJPsZUcunEqVtPt4VamuqFp06i2+vr7NK5VWGTbiVfeav+sL2kLq+3Opbh6Sxv6qo355kdzp8+8suoKZa6Cm1BZnJJLC3O7/0ZzpjpTfu+Jkgmor/AGxUVEdG9MPZzsd9esr1cK08108K6eR0mEVDMWw7szltIw5wCerLOtrkclbTPqaNVyk8C4ez483f3nums9jq8LFfuSRfcni2XJ2quD1GzaJ3VT1t7mNU5qV6smaqL5X9ivFk0hp99xqWVdSxUo4lzvT+KqcydXT3ErR2fTFAqS1VxhqXN34fK1W/4px8TYq9VLUfsmnaZ00mMJIrMMYnUn1whdjp44e/O5N3DUzJKiep/KpWKqrxt7GXWNwc6Nlnol2qqrVEcie6zr+Plk+1D4rJZF2F3QR7LP7nc3eu8xWe1JQ8pV1kvLVku+SVy+z04X5lY1PeEuNQkEC/s0S7l++7p+hn1VQtXNm4Idhh1E3AqFXP/df119CEVVVVVVVVXiq84ABhAAAAAAAAAAAAAAAAAAAAAExp/UFTZZcNzJSvX7cKr4p0L5k8+kjrJXXXSdQ1JuM9Gu7PZ+U6FKSeopJIZGyRPdG9u9HNXCp2k7Zu5s5Eu328iBYXNlSaF2V/Pn5l7o9R073rBcY3UVS3c5siLs9/N2mzJarTcE5T0eCRHb9uJcZ7WqU92oKyeNI6+OnrWpwWojy5Pg5MKaU09O5dqnpVgdzKyZVRO/f4lZ8DL3Y46CHHpnNRlVEj/T7/AOF6Zp20RLteiN3ffe5U8VPtRdrVa4thskSY4RQIir3Jw7Tnr5JHph8j3J1uVTyR7K+qk6422NP08KNXrkiEzetQ1FyzFGnI02fYRd7vivyIYAlRERLIYs88k788i3UAA+kIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z" width="30" height="30"
+                alt="Bootstrap Tamil" loading="lazy" class="d-inline-block align-top">
+            Greentech Software</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavBar"
+            aria-controls="myNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavBar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a href="/home.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/review.html" class="nav-link">Review</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="/Course.html" class="nav-link">Course</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/register.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+</header>
+
+
+<!-----carousel  coding----->
+
+    
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://blog.weekdone.com/wp-content/uploads/2019/05/rdYe01mg.png"" class="d-block w-100 vh-100" alt="...">
+          
+            <div class="carousel-caption  d-none d-md-block text-primary">
+                <h5>we will design your career</h5>
+                <p>lets start our journey of web developement</p>
+              </div>
+        
+        </div>
+          <div class="carousel-item">
+            <img src="https://ak.picdn.net/shutterstock/videos/8592619/thumb/1.jpg"" class="d-block w-100 vh-100" alt="...">
+          
+            <div class="carousel-caption d-none d-md-block">
+                <h5>we will design your career</h5>
+                <p>lets start our journey of web developement.</p>
+              </div>
+        
+        </div>
+          <div class="carousel-item">
+            <img src="https://i.insider.com/5f4024f189aff80028ab7494"" class="d-block w-100 vh-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>we will design your career</h5>
+                <p>lets start our journey of web developement..</p>
+              </div>
+        
+        
+        
+        </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+    <!-----bootstrap js----->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!---- bootsrap logo link
+
+"https://getbootstrap.com/docs/4.5/assets/brand/bootstrap-solid.svg"
+-->
